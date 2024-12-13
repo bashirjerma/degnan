@@ -1,0 +1,255 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(231, 241, 221);
+}
+
+/* Header section */
+/* nav */
+header{
+    background-color: #39A399;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+     
+}
+
+header h1{
+    color: #131010;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 200%;
+    
+
+}
+
+
+
+
+/** index page **/
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+}
+
+.me-container{
+    word-wrap: inherit;
+}
+.me-container  img{
+    width: 70%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.tx-container{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-left: 120px;
+    margin-right: 10px;
+}
+
+/** adding contener class **/
+.image-container{
+    
+    flex-wrap: wrap;
+    display: flex;
+    max-width: 2000px;
+    margin: auto;
+    background: #f2f2f2;
+    overflow: auto;
+    
+}
+
+.wall{
+   
+    width: 5px;
+    height: 10px;
+    
+    
+}
+
+.gallery{
+    margin:10px;
+    border: 5px solid #ccc;
+    float: left;
+    width: 22%;
+    
+}
+
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+
+.desc{
+    padding: 15px;
+    text-align: center;
+}
+/** adding active class */
+.active{
+    
+    text-decoration: underline;
+
+}
+
+/** shop page **/
+
+.menu-container {
+    width: 300px;
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  .menu-wrapper{
+      display: flex;
+      justify-content: space-between;
+  }
+  .menu-item {
+    margin: 10px 0;
+  }
+
+  .menu-item h3 {
+    margin: 0;
+    font-size: 20px;
+  }
+
+  .menu-item p {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+
+  .menu-item .price {
+    color: #e74c3c;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+
+
+
+
+
+
+
+/* contact page */
+.contact{
+    
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-left: 100px;
+    margin-right: 10px;
+}
+.contact > section{
+    width: 46%;
+    height: 80%;
+    
+    
+
+}
+
+.section{
+  left: 0;
+  bottom: 0;
+  
+  justify-content: center;
+  width: 100%;
+  display: flex;
+}
+
+.contact1{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-left: 100px;
+    margin-right: 10px;
+}
+
+.map1{
+   
+    top: 0px;
+    left: 0px;
+    margin-left: 100px;
+    margin-right: 200px;
+    width: 400px;
+    
+}
+
+/* footer section */
+footer{
+    margin-top: 5px;
+    background-color: #39A399;
+    padding: 10px;
+    clear: both;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    overflow: hidden;
+   
+}
+
+footer .social_icon{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+
+}
+
+footer .social_icon li{
+    list-style: none;
+}
+
+footer .social_icon li a{
+    font-size: 2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+
+
+}
+
+footer .social_icon li a:hover{
+    transform: translateY(-10px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
